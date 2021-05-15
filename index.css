@@ -82,6 +82,8 @@ html body{
     .flex-container{
         flex-direction: row-reverse;
         border-radius: 2%;
+        max-width: 1000px;
+        margin: auto;
     }
     .image-section{
         border-radius: 0 2% 2% 0;
@@ -92,7 +94,7 @@ html body{
     }
     .img-desktop{
         display: block;
-        height: 100%;
+        width: 100%;
         border-radius: 0 2% 2% 0;
         opacity: 25%;
     }
@@ -100,19 +102,20 @@ html body{
         justify-content: center;
         align-items: center;
         margin: 40px;
+        max-width: 394px;
     }
     .text-section div{
         /* padding: 0; */
     }
     .hero-header{
         /* margin: 0; */
-        font-size: 63px;
+        font-size: 30px;
         margin-bottom: 20px;
         text-align: left;
     }
     .content-text{
         text-align: left;
-        font-size: 26px;
+        font-size: 15px;
     }
     .content-stats{
         display: flex;
